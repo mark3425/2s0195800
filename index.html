@@ -46,6 +46,17 @@
     </ul>
     <img src="P5.png" alt="nslookup MX-запись">
 
+    <h2>Аналогичным образом сделаем запросты для домена kubsu-dev.ru</h2>
+    <h3>А-запись</h3>
+    <h3>Результат: 212.192.134.135(IP адрес)</h3>
+    <pre>nslookup -type=A kubsu-dev.ru</pre>
+    <img src="pp1.png" alt="nslookup A-запись">
+
+    <h3>MX-запись, </h3>
+    <pre>nslookup -type=mx kubsu-dev.ru</pre>
+    <h3>домен не имеет собственных почтовых серверов. Но в авторитативном ответе указаны DNS-серверы, обслуживающие домен</h3>
+    <img src="pp2.png" alt="nslookup MX-запись">
+    
     <h2>Пункт 4. Использование команды whois.</h2>
     <h3>kubsu.ru:</h3>
     <pre>whois kubsu.ru</pre>
